@@ -19,64 +19,135 @@
     </head>
 
     <body>
-        <!-- Bar Gray -->
-        <div class="col-xs-12 rectangle-24">
-            <p class="envio-gratis-a-parti">
-                <img class="shape" src="images/ico/free delivery.svg">
-                Envio Gratis a partir de 45€
-            </p>
+        <header class="row">
+            <!-- Bar Gray -->
+            <div class="col-12 col-sm-12 rectangle-24 d-flex justify-content-around">
+                <p class="necesitas-ayuda-91">
+                    <img class="shape" src="images/ico/phone-call (3).svg">
+                    ¿Necesitas ayuda? 919 019 101 I 932 711 184
+                </p>
+                <p class="envio-gratis-a-parti">
+                    <img class="shape" src="images/ico/free delivery.svg">
+                    Envio Gratis a partir de 45€
+                </p>
+                <p class="dias-plazo-devo">
+                    <img src="images/ico/devolucion.svg">
+                    30 días - plazo devolución gratuita
+                </p>
+            </div>
+
+            <!-- NavBar-->
+            <div class="col-4 col-sm-12 navInvi">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                        <button class="navbar-toggler borde-quitar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="images/ico/menu_mobile.svg" class="fill-1">
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PLANTAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">COSMÉTICA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">HIGIENE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">DEPORTE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">HUERTO</a>
+                                </li>
+                            </ul>
+                        </div>  
+                </nav>
+            </div>
+
+            <!-- Imágenes-->
+            <div class="col-8 col-sm-6 col-md-8">
+                <div class="row">
+                    <div class="col-1 col-sm-2 col-md-2"><img src="images/ico/telephone.svg"></div>
+                    <div class="col-6 col-sm-6 col-md-4"><img src="images/ico/Logo.svg"></div>
+
+                    <div class="col-2 col-sm-2  col-md-3 nav-item dropdown cuenta-invi-dos">
+                        <img src="images/ico/icono cuenta.svg">
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-3 nav-item dropdown cuenta-invi">
+                        
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/ico/icono cuenta.svg">Mi cuenta</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Lorem</a>
+                        </div>                        
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-3"><img src="images/ico/cart.svg"></div>
+                </div>
+            </div>
+        
+        <!-- Buscador-->
+        <div class="col-12 col-sm-6 col-md-4">
+            <form class="my-lg-0 form-search">
+                <div class="form-group input-group borrame2">
+                    <input class="form-control bg-busca" type="search" placeholder="¿Qué buscas hoy?" aria-label="Search">
+                    <button class="bg-button" type="submit">
+                        <img src="images/ico/search.svg" class="search-material">
+                    </button>    
+                </div>
+            </form>
         </div>
-
-
-        <!-- NavBar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler borde-quitar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="images/ico/menu_mobile.svg" class="fill-1">
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PLANTAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">COSMÉTICA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">HIGIENE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">DEPORTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">HUERTO</a>
-                    </li>
-                </ul>
+        
+        <!-- NavBar Copia-->
+        <!-- Realizado una copia para cambiar la posición del buscador-->
+        <div class="col-4 col-sm-12 navVisible">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                        <button class="navbar-toggler borde-quitar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="images/ico/menu_mobile.svg" class="fill-1">
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PLANTAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">COSMÉTICA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">HIGIENE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">DEPORTE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">HUERTO</a>
+                                </li>
+                            </ul>
+                        </div>  
+                </nav>
             </div>
-            <img src="images/ico/telephone.svg">
-            <img src="images/ico/Logo.svg">
-            <img src="images/ico/icono cuenta.svg">
-            <img src="images/ico/cart.svg">
-        </nav>
 
-        <form class="form-inline my-lg-0 form-search">
-            <div class="form-group input-group borrame2">
-                <input class="form-control bg-busca" type="search" placeholder="¿Qué buscas hoy?" aria-label="Search">
-                <button class="bg-button" type="submit">
-                    <img src="images/ico/search.svg" class="search-material">
-                </button>    
-            </div>
-        </form>
 
+
+    </header>
         <!-- Bar Pink -->
         <div class="col-xs-12 rectangle-18">
             <p class="promociones-de-invi">

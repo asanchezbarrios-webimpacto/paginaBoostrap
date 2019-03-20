@@ -4,8 +4,7 @@
 .rectangle-24 {
 	height: 25px;
 	width: 100%;
-    background-color: #808080;
-    
+    background-color: #808080;  
     text-align:center;
 }
 
@@ -31,6 +30,32 @@
 .borde-quitar {
     border: 0px;
 }
+
+.necesitas-ayuda-91 {	
+    height: 19px;	
+    width: 287px;	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+
+}
+.dias-plazo-devo {	
+    height: 20px;	
+    width: 260px;	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;	
+    text-align: right;
+}
+
+#navbarDropdown {
+    color: black;
+}
+
 /*
 * Busqueda
 */
@@ -56,6 +81,7 @@
 .form-search {
     height: 35px;
 }
+
 .rectangle-18 {	
     height: 25px;
     width: 100%;	
@@ -133,6 +159,7 @@
     line-height: 20px;	
     text-align: center;
 }
+
 /*
 * banner 2
 */
@@ -142,7 +169,39 @@
     border-radius: 6px;	
     background-color: #F5F5F5;
 }
-
-.banner-dos {
-
+.cuenta-invi-dos {
+    display: none;
 }
+.navVisible {
+    display:none;
+}
+/*************   MEDIA *************************/
+
+/* div gris */
+@media (max-width: 721px) {
+    .necesitas-ayuda-91, .dias-plazo-devo {
+        display: none;
+    }
+}
+/* dropdown */
+@media (max-width: 990px) {
+    .cuenta-invi {
+        display:none;
+    }
+    .cuenta-invi-dos {
+        display:inline-block;
+    }
+}
+@media (min-width:991px) {
+    .navInvi {
+        display:none;
+    }
+    .navVisible {
+        display: inline-block;
+    }
+}
+
+
+
+
+
