@@ -3,7 +3,7 @@
 */
 .rectangle-24 {
 	height: 25px;
-	width: 320px;
+	width: 100%;
     background-color: #808080;
     
     text-align:center;
@@ -24,13 +24,125 @@
     width: 18px;
 }
 
-/*
-* ******************************
-*/
 .fill-1 {	
     height: 18.88px;	
     width: 20.27px;
 }
 .borde-quitar {
     border: 0px;
+}
+/*
+* Busqueda
+*/
+.bg-busca {	
+    height: 35px;	
+    width: 312px;	
+    border: 1px solid #EBE7E4;	
+    background-color: #FBFAF9;
+}
+.bg-button {	
+    height: 35px;	
+    width: 35px;
+    background-color: #5CB8A3;
+}
+.search-material {	
+    height: 18px;
+    width: 18px;
+}
+
+/*
+* rectangulo pink
+*/
+.form-search {
+    height: 35px;
+}
+.rectangle-18 {	
+    height: 25px;
+    width: 100%;	
+    background-color: #EE988B;
+}
+
+.promociones-de-invi {	
+    height: 16px;	
+    width: 100%;	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 12px;	
+    line-height: 14px;	
+    text-align: center;
+}
+
+.promocion-negrita {
+    font-weight: bold;
+}
+
+.imagen-ajustar {
+    width:100%;
+}
+
+.imagen-fondo-nav {
+    background-image: url("../images/img/imgpsh_fullsize_anim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100% ;
+    text-align: center;
+    background-position: center;
+}
+
+.rebajas-70 {	
+    padding-top: 20px;
+    height: 52px;	
+    width: 100%;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 36px;	
+    font-weight: bold;	
+    line-height: 52px;	
+    text-align: center;
+
+}
+
+.hasta-50-en-product {	
+    height: 20px;	
+    width: 100%;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;	
+    text-align: center;
+}
+
+.rectangle-7 {	
+    height: 31.81px;	
+    width: 129.9px;	
+    border-radius: 6px;	
+    background-color: #5CB8A3;	
+    box-shadow: 0 2px 0 0 #529888;
+    text-align: center;
+}
+
+.compra-ya {	
+    height: 20px;	
+    width: 89.25px;	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 20px;	
+    text-align: center;
+}
+/*
+* banner 2
+*/
+.mask {	
+    height: 100px;	
+    width: 320px;	
+    border-radius: 6px;	
+    background-color: #F5F5F5;
+}
+
+.banner-dos {
+
 }
