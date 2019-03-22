@@ -3,7 +3,6 @@
 <html lang="es-ES">
     <head>
         <meta charset="utf-8">
-        <meta name="author" content="Aitor Sanchez">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tarea web 1652</title>
         <!-- Latest compiled and minified CSS -->
@@ -19,6 +18,7 @@
     </head>
 
     <body>
+        <!---------------------------- navBar Mobile -------------------------->
         <header class="row formato-pantalla">
             <!-- Bar Gray -->
             <div class="col-12 col-sm-12 rectangle-24 d-flex justify-content-around">
@@ -105,9 +105,11 @@
             </form>
         </div>
 
-        <!-- NavBar DESKTOP -->
+        <!------------------------------ NavBar DESKTOP --------------------------------------------------->
+
         <div class="col-md-12">
             <!-- DESKTOP invisible inferior a 990px-->
+
             <!-- Logo naturitas alineado a la izquierda-->
             <div class="col-md-2 navVisible logo-izquierda"><img src="images/ico/Logo.svg" class="fill-7"></div>
             <!-- Buscador DESKTOP alineado a la izquierda-->
@@ -115,18 +117,18 @@
                 <form class="my-lg-0 form-search">
                     <div class="form-group input-group">
                         <input class="form-control bg-busca" type="search" placeholder="¿Qué buscas hoy? Encuentra entre más de 30 mil productos..." aria-label="Search">
-                        <button class="bg-button" type="submit">
+                        <button type="button" class="btn rectangle btn-info bg-button d-flex align-items-center" type="submit">
                             <img src="images/ico/search.svg" class="search-material">
                         </button>    
                     </div>
                 </form>
             </div>
             <!-- DESKTOP imágenes -->
-            <div class="col-8 col-sm-6 col-md-3 navVisible ">
+            <div class="col-8 col-sm-4 col-md-3 navVisible ">
                 <div class="row d-flex align-items-center">
-                    <div class="col-md-4 centrado"><img src="images/ico/favoritos.svg" class="shape">  Favoritos</div>
-                    <div class="col-md-4 nav-item dropdown cuenta-invi centrado-center">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/ico/icono cuenta.svg">Mi cuenta</a>
+                    <div class="col-md-5 centrado"><img src="images/ico/favoritos.svg" class="shape">  Favoritos</div>
+                        <div class="col-md-3 nav-item dropdown cuenta-invi centrado-center">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/ico/icono cuenta.svg">Mi cuenta</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Lorem</a>
                         </div>                        
@@ -147,22 +149,22 @@
                                 <a class="nav-link" href="#">PLANTAS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
+                                <a class="nav-link " href="#">ALIMENTACIÓN</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">COSMÉTICA</a>
+                                <a class="nav-link " href="#">COSMÉTICA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">HIGIENE</a>
+                                <a class="nav-link " href="#">HIGIENE</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
+                                <a class="nav-link " href="#">MAMÁ Y BEBÉ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">DEPORTE</a>
+                                <a class="nav-link " href="#">DEPORTE</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#">HUERTO</a>
+                                <a class="nav-link " href="#">HUERTO</a>
                             </li>
                         </ul>
                     </div>  
@@ -186,20 +188,20 @@
                     <span class="promocion-negrita">¡Promociones de invierno! </span>Gastos de envío gratis para cosmética
             </p>
         </div>
-        <!-- Banner 1-->
+        <!-- Banner 1 mobile and desktop-->
         <div>
             <div class="imagen-fondo-nav">
                 <br>
                 <p class="rebajas-70">Rebajas -70%</p>
                 <br>
-                <p clas="hasta-50-en-product">Hasta 50% en productos seleccionados</p>
+                <p class="hasta-50-en-product">Hasta 50% en productos seleccionados</p>
                 <br>
                 <button type="button" class="btn btn-info rectangle-7"><p class="compra-ya">COMPRA YA</p></button>
             </div>
         </div>
         
-        <!-- Banner 2-->
-        <div class="mask navInvi">
+        <!-- Banner 2 mobile -->
+        <div class="mask navInvi banner2-centrado">
             <div>
                 <img src="images/img/bannerp_01_mob.jpg" class="banner-dos">
             </div>
