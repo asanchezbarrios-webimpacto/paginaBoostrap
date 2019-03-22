@@ -19,7 +19,7 @@
     </head>
 
     <body>
-        <header class="row">
+        <header class="row formato-pantalla">
             <!-- Bar Gray -->
             <div class="col-12 col-sm-12 rectangle-24 d-flex justify-content-around">
                 <p class="necesitas-ayuda-91">
@@ -37,12 +37,11 @@
             </div>
 
             <!-- NavBar-->
-            <div class="col-4 col-sm-12 navInvi">
+            <div class="col-3 col-sm-12 navInvi">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                         <button class="navbar-toggler borde-quitar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <img src="images/ico/menu_mobile.svg" class="fill-1">
                         </button>
-                        
                         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
@@ -75,7 +74,7 @@
             </div>
 
             <!-- Imágenes-->
-            <div class="col-8 col-sm-6 col-md-8">
+            <div class="col-9 col-sm-6 col-md-8 navInvi">
                 <div class="row">
                     <div class="col-1 col-sm-2 col-md-2"><img src="images/ico/telephone.svg"></div>
                     <div class="col-6 col-sm-6 col-md-4"><img src="images/ico/Logo.svg"></div>
@@ -95,9 +94,9 @@
             </div>
         
         <!-- Buscador-->
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 navInvi">
             <form class="my-lg-0 form-search">
-                <div class="form-group input-group borrame2">
+                <div class="form-group input-group">
                     <input class="form-control bg-busca" type="search" placeholder="¿Qué buscas hoy?" aria-label="Search">
                     <button class="bg-button" type="submit">
                         <img src="images/ico/search.svg" class="search-material">
@@ -105,70 +104,122 @@
                 </div>
             </form>
         </div>
-        
-        <!-- NavBar Copia-->
-        <!-- Realizado una copia para cambiar la posición del buscador-->
-        <div class="col-4 col-sm-12 navVisible">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                        <button class="navbar-toggler borde-quitar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="images/ico/menu_mobile.svg" class="fill-1">
-                        </button>
-                        
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">PLANTAS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">COSMÉTICA</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">HIGIENE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">DEPORTE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">HUERTO</a>
-                                </li>
-                            </ul>
-                        </div>  
-                </nav>
+
+        <!-- NavBar DESKTOP -->
+        <div class="col-md-12">
+            <!-- DESKTOP invisible inferior a 990px-->
+            <!-- Logo naturitas alineado a la izquierda-->
+            <div class="col-md-2 navVisible logo-izquierda"><img src="images/ico/Logo.svg" class="fill-7"></div>
+            <!-- Buscador DESKTOP alineado a la izquierda-->
+            <div class="col-12 col-sm-6 col-md-6 navVisible">
+                <form class="my-lg-0 form-search">
+                    <div class="form-group input-group">
+                        <input class="form-control bg-busca" type="search" placeholder="¿Qué buscas hoy? Encuentra entre más de 30 mil productos..." aria-label="Search">
+                        <button class="bg-button" type="submit">
+                            <img src="images/ico/search.svg" class="search-material">
+                        </button>    
+                    </div>
+                </form>
+            </div>
+            <!-- DESKTOP imágenes -->
+            <div class="col-8 col-sm-6 col-md-3 navVisible ">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-4 centrado"><img src="images/ico/favoritos.svg" class="shape">  Favoritos</div>
+                    <div class="col-md-4 nav-item dropdown cuenta-invi centrado-center">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/ico/icono cuenta.svg">Mi cuenta</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Lorem</a>
+                        </div>                        
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-4"><img src="images/ico/Carrito.png" class="rectangle-13"></div>
+                </div>
             </div>
 
-
-
+            <!-- Realizado una DESKTOP (invisible inferior a 990px) para cambiar la posición del buscador-->
+            <div class="col-4 col-sm-12 col-md-12 navVisible fondoGris">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+                    <div id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PLANTAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">ALIMENTACIÓN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">COSMÉTICA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">HIGIENE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">MAMÁ Y BEBÉ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">DEPORTE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">HUERTO</a>
+                            </li>
+                        </ul>
+                    </div>  
+                    <div>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Nuestras Marcas</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><span class="color-ofertas">  Ofertas   </span><img src="images/ico/offers_icon.svg" class="shape"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
         <!-- Bar Pink -->
-        <div class="col-xs-12 rectangle-18">
+        <div class="col-12 rectangle-18">
             <p class="promociones-de-invi">
                     <span class="promocion-negrita">¡Promociones de invierno! </span>Gastos de envío gratis para cosmética
             </p>
         </div>
         <!-- Banner 1-->
-        <div class="imagen-fondo-nav">
-            <p class="rebajas-70">Rebajas -70%</p>
-            <p clas="hasta-50-en-product">Hasta 50% en productos seleccionados</p>
-            <button type="button" class="btn btn-info rectangle-7"><p class="compra-ya">COMPRA YA</p></button>
+        <div>
+            <div class="imagen-fondo-nav">
+                <br>
+                <p class="rebajas-70">Rebajas -70%</p>
+                <br>
+                <p clas="hasta-50-en-product">Hasta 50% en productos seleccionados</p>
+                <br>
+                <button type="button" class="btn btn-info rectangle-7"><p class="compra-ya">COMPRA YA</p></button>
+            </div>
         </div>
-
+        
         <!-- Banner 2-->
-        <div class="mask">
+        <div class="mask navInvi">
             <div>
                 <img src="images/img/bannerp_01_mob.jpg" class="banner-dos">
             </div>
         </div>
-        
 
-        
+        <!-- Banners DESKTOP-->
+
+        <div class="col-4 col-sm-12 col-md-12 navVisible d-flex justify-content-around">
+            <!-- banner 1-->
+            <div class="mask navVisible">
+                <div>
+                    <img src="images/img/bannerp_01.jpg" class="banner-dos">
+                </div>
+            </div>
+            <!-- banner 2-->
+            <div class="mask navVisible">
+                <div>
+                    <img src="images/img/bannerp_02.jpg" class="banner-dos">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
